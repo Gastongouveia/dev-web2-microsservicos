@@ -74,6 +74,12 @@ Para simular esse cenário [use o *docker stop nome_container* para parar contai
 
 Ao terminar os experimentos, lembre-se de executar ```docker-compose down```
 
+Para testar o que foi adicionado na atividade, execute o comando abaixo:
+
+```
+$ sudo docker-compose up --build -d --scale app=2 --scale mult=3
+```
+
 
 
 ## Projetos Relacionados
