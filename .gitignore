@@ -1,0 +1,13 @@
+venv-micro
+venv
+
+# Python
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
